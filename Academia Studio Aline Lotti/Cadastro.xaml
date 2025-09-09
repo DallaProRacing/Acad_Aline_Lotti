@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Academia_Studio_Aline_Lotti.Cadastro"             
+             BackgroundColor="{AppThemeBinding Light={StaticResource White}, Dark={StaticResource Gray950}}">
+    
+    <ScrollView>
+        <VerticalStackLayout Padding="30" Spacing="20">
+
+            <!-- Header com ícone e títulos -->
+            <VerticalStackLayout 
+                Spacing="20"
+                VerticalOptions="Center">
+
+                <!-- Botão voltar e ícone -->
+                <Image Source="logostudio.png" 
+                    WidthRequest="300"       
+                    HorizontalOptions="Center" 
+                    VerticalOptions="Center" 
+/>
+                <!-- Títulos -->
+                <VerticalStackLayout Spacing="5">
+                    <Label Text="Criar Conta"
+                           FontSize="28"
+                           FontAttributes="Bold"
+                           TextColor="{StaticResource Orange}"
+                           HorizontalOptions="Center"/>
+
+                    <Label Text="Junte-se ao Studio Aline Lotti"
+                           FontSize="16"
+                           TextColor="{AppThemeBinding Light={StaticResource Gray600}, Dark={StaticResource Gray200}}"
+                           HorizontalOptions="Center"/>
+                </VerticalStackLayout>
+            </VerticalStackLayout>
+
+            <!-- Formulário -->
+            <VerticalStackLayout Spacing="20">
+
+                <!-- Nome completo -->
+                <VerticalStackLayout Spacing="5">
+                    <Label Text="Nome completo"
+                           FontSize="14"
+                           TextColor="{StaticResource Orange}"
+                           FontAttributes="Bold"/>
+
+                    <Border BackgroundColor="Transparent"
+                            StrokeShape="RoundRectangle 8"
+                            Stroke="{StaticResource Gray200}"
+                            StrokeThickness="1">
+                        <Entry Placeholder="Seu nome"
+                               FontSize="16"
+                               TextColor="{AppThemeBinding Light={StaticResource Black}, Dark={StaticResource White}}"
+                               PlaceholderColor="{StaticResource Gray400}"
+                               BackgroundColor="Transparent"
+                               HeightRequest="50"/>
+                    </Border>
+                </VerticalStackLayout>
+
+                <!-- Email -->
+                <VerticalStackLayout Spacing="5">
+                    <Label Text="Email"
+                           FontSize="14"
+                           TextColor="{StaticResource Orange}"
+                           FontAttributes="Bold"/>
+
+                    <Border BackgroundColor="Transparent"
+                            StrokeShape="RoundRectangle 8"
+                            Stroke="{StaticResource Gray200}"
+                            StrokeThickness="1">
+                        <Entry Placeholder="seu@email.com"
+                               Keyboard="Email"
+                               FontSize="16"
+                               TextColor="{AppThemeBinding Light={StaticResource Black}, Dark={StaticResource White}}"
+                               PlaceholderColor="{StaticResource Gray400}"
+                               BackgroundColor="Transparent"
+                               HeightRequest="50"/>
+                    </Border>
+                </VerticalStackLayout>
+
+                <!-- Senha -->
+                <VerticalStackLayout Spacing="5">
+                    <Label Text="Senha"
+                           FontSize="14"
+                           TextColor="{StaticResource Orange}"
+                           FontAttributes="Bold"/>
+
+                    <Border BackgroundColor="Transparent"
+                            StrokeShape="RoundRectangle 8"
+                            Stroke="{StaticResource Gray200}"
+                            StrokeThickness="1">
+                        <Grid>
+                            <Entry x:Name="SenhaEntry"
+                                   Placeholder="••••••••"
+                                   IsPassword="True"
+                                   FontSize="16"
+                                   TextColor="{AppThemeBinding Light={StaticResource Black}, Dark={StaticResource White}}"
+                                   PlaceholderColor="{StaticResource Gray400}"
+                                   BackgroundColor="Transparent"
+                                   HeightRequest="50"
+                                   />
+
+                            <Button x:Name="ToggleSenhaButton"
+                                    Text="👁"
+                                    FontSize="10"
+                                    BackgroundColor="Transparent"
+                                    TextColor="{StaticResource Gray400}"
+                                    HorizontalOptions="End"
+                                    VerticalOptions="Center"
+                                    Padding="15,0"
+                                    Clicked="OnToggleSenhaButton_Clicked"
+/>
+                        </Grid>
+                    </Border>
+                </VerticalStackLayout>
+
+                <!-- Confirmar senha -->
+                <VerticalStackLayout Spacing="5">
+                    <Label Text="Confirmar senha"
+                           FontSize="14"
+                           TextColor="{StaticResource Orange}"
+                           FontAttributes="Bold"/>
+
+                    <Border BackgroundColor="Transparent"
+                            StrokeShape="RoundRectangle 8"
+                            Stroke="{StaticResource Gray200}"
+                            StrokeThickness="1">
+                        <Grid>
+                            <Entry x:Name="ConfirmeSenhaEntry"
+                                   Placeholder="••••••••"
+                                   IsPassword="True"
+                                   FontSize="16"
+                                   TextColor="{AppThemeBinding Light={StaticResource Black}, Dark={StaticResource White}}"
+                                   PlaceholderColor="{StaticResource Gray400}"
+                                   BackgroundColor="Transparent"
+                                   HeightRequest="50"/>
+                            <Button x:Name="ToggleConfirmeSenhaButton"
+                                    Text="👁"
+                                    FontSize="10"
+                                    BackgroundColor="Transparent"
+                                    TextColor="{StaticResource Gray400}"
+                                    HorizontalOptions="End"
+                                    VerticalOptions="Center"
+                                    Padding="15,0"
+                                    Clicked="OnToggleConfirmeSenhaButton_Clicked"/>
+                        </Grid>
+                    </Border>
+                </VerticalStackLayout>
+
+                <!-- Botão Criar Conta -->
+                <Button Text="Criar Conta"
+                        FontSize="16"
+                        FontAttributes="Bold"
+                        TextColor="{StaticResource White}"
+                        BackgroundColor="{StaticResource Orange}"
+                        CornerRadius="8"
+                        HeightRequest="50"
+                        Margin="0,20,0,0"/>
+
+                <!-- Termos de uso -->
+                <VerticalStackLayout Spacing="5" Margin="0,10,0,0">
+                    <Label HorizontalOptions="Center">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Text="Ao criar uma conta, você concorda com nossos "
+                                      FontSize="12"
+                                      TextColor="{AppThemeBinding Light={StaticResource Gray600}, Dark={StaticResource Gray200}}"/>
+                                <Span Text="Termos de Uso"
+                                      FontSize="12"
+                                      TextColor="{StaticResource Orange}"
+                                      FontAttributes="Bold"/>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+                </VerticalStackLayout>
+
+            </VerticalStackLayout>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

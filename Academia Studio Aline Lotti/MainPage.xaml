@@ -1,0 +1,104 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Academia_Studio_Aline_Lotti.MainPage"
+             BackgroundColor="{AppThemeBinding Light={StaticResource White}, Dark={StaticResource Gray950}}">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30"
+            Spacing="20"
+            VerticalOptions="Center">
+
+            <!-- Logo -->
+            <Image Source="logostudio.png" 
+                   WidthRequest="300"
+                   Aspect="AspectFit" 
+                   HorizontalOptions="Center" 
+                   VerticalOptions="Center" 
+            />
+
+
+            <Label Text="Pronto para Treinar?"
+                   HorizontalOptions="Center"
+                   TextColor="{AppThemeBinding Light={StaticResource Orange}, Dark={StaticResource Orange}}"
+                   FontSize="20" 
+            />
+
+            <!-- Campo Email -->
+            <VerticalStackLayout Spacing="5">
+                <Label Text="Email"
+                FontSize="14"
+                TextColor="{StaticResource Orange}"
+                FontAttributes="Bold"/>
+
+                <Border BackgroundColor="Transparent"
+                 StrokeShape="RoundRectangle 8"
+                Stroke="{StaticResource Gray200}"
+                StrokeThickness="1">
+                    <Entry Placeholder="seu@email.com"
+                        Keyboard="Email"
+                        FontSize="16"
+                        TextColor="{AppThemeBinding Light={StaticResource Black}, Dark={StaticResource White}}"
+                        PlaceholderColor="{StaticResource Gray400}"
+                        BackgroundColor="Transparent"
+                        HeightRequest="50"/>
+                </Border>
+            </VerticalStackLayout>
+
+            <!-- Campo Senha -->
+            <VerticalStackLayout Spacing="5">
+                <Label Text="Senha"
+           FontSize="14"
+           TextColor="{StaticResource Orange}"
+           FontAttributes="Bold"/>
+
+                <Border BackgroundColor="Transparent"
+            StrokeShape="RoundRectangle 8"
+            Stroke="{StaticResource Gray200}"
+            StrokeThickness="1">
+                    <Grid>
+                        <Entry x:Name="SenhaEntry"
+                            Placeholder="••••••••"
+                            IsPassword="True"
+                            FontSize="16"
+                            TextColor="{AppThemeBinding Light={StaticResource Black}, Dark={StaticResource White}}"
+                            PlaceholderColor="{StaticResource Gray400}"
+                            BackgroundColor="Transparent"
+                            HeightRequest="50"/>
+                        <Button x:Name="ToggleSenhaButton"
+                                Text="👁"
+                                FontSize="10"
+                                BackgroundColor="Transparent"
+                                TextColor="{StaticResource White}"
+                                HorizontalOptions="End"
+                                VerticalOptions="Center"
+                                Padding="15,0"
+                                Clicked="OnToggleSenhaClicked"/>
+                    </Grid>
+                </Border>
+            </VerticalStackLayout>
+
+            <!-- Botão Login -->
+            <Button Text="Entrar"
+                    FontSize="16"
+                    FontAttributes="Bold"
+                    TextColor="{StaticResource White}"
+                    BackgroundColor="{StaticResource Orange}"
+                    CornerRadius="8"
+                    HeightRequest="50"
+                    Margin="0,20,0,0"/>
+
+            <!-- Link Cadastro -->
+            <Button Text="Não tem conta? Cadastre-se"
+                    HorizontalOptions="Center"
+                    BackgroundColor="Transparent"
+                    TextColor="{AppThemeBinding Light={StaticResource Orange}, Dark={StaticResource Orange}}"
+                    FontSize="14"
+                    Clicked="Button_Clicked"
+                    FontAttributes="Bold"
+                    Padding="0"
+                    />
+            
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
