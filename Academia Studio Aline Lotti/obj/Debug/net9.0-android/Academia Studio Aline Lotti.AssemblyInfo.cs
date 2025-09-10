@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Academia Studio Aline Lotti")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+23e555f10d6f12e1604622b2397239b19ddd1250")]
 [assembly: System.Reflection.AssemblyProductAttribute("Academia Studio Aline Lotti")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Academia Studio Aline Lotti")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

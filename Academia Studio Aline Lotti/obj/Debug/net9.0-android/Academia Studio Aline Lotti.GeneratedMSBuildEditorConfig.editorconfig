@@ -12,44 +12,56 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Academia_Studio_Aline_Lotti
-build_property.ProjectDir = C:\Users\ruand\source\repos\Academia Studio Aline Lotti\Academia Studio Aline Lotti\
+build_property.ProjectDir = C:\Users\ruand\source\repos\Acad_Aline_Lotti\Academia Studio Aline Lotti\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/ruand/source/repos/Academia Studio Aline Lotti/Academia Studio Aline Lotti/App.xaml]
+[C:/Users/ruand/source/repos/Acad_Aline_Lotti/Academia Studio Aline Lotti/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Academia_Studio_Aline_Lotti.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/ruand/source/repos/Academia Studio Aline Lotti/Academia Studio Aline Lotti/AppShell.xaml]
+[C:/Users/ruand/source/repos/Acad_Aline_Lotti/Academia Studio Aline Lotti/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Academia_Studio_Aline_Lotti.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/ruand/source/repos/Academia Studio Aline Lotti/Academia Studio Aline Lotti/Cadastro.xaml]
+[C:/Users/ruand/source/repos/Acad_Aline_Lotti/Academia Studio Aline Lotti/Cadastro.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Academia_Studio_Aline_Lotti.Cadastro.xaml
 build_metadata.AdditionalFiles.TargetPath = Cadastro.xaml
 build_metadata.AdditionalFiles.RelativePath = Cadastro.xaml
 
-[C:/Users/ruand/source/repos/Academia Studio Aline Lotti/Academia Studio Aline Lotti/MainPage.xaml]
+[C:/Users/ruand/source/repos/Acad_Aline_Lotti/Academia Studio Aline Lotti/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Academia_Studio_Aline_Lotti.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/ruand/source/repos/Academia Studio Aline Lotti/Academia Studio Aline Lotti/Resources/Styles/Colors.xaml]
+[C:/Users/ruand/source/repos/Acad_Aline_Lotti/Academia Studio Aline Lotti/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Academia_Studio_Aline_Lotti.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/ruand/source/repos/Academia Studio Aline Lotti/Academia Studio Aline Lotti/Resources/Styles/Styles.xaml]
+[C:/Users/ruand/source/repos/Acad_Aline_Lotti/Academia Studio Aline Lotti/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Academia_Studio_Aline_Lotti.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/ruand/source/repos/Acad_Aline_Lotti/Academia Studio Aline Lotti/Senha.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Academia_Studio_Aline_Lotti.Senha.xaml
+build_metadata.AdditionalFiles.TargetPath = Senha.xaml
+build_metadata.AdditionalFiles.RelativePath = Senha.xaml
+
+[C:/Users/ruand/source/repos/Acad_Aline_Lotti/Academia Studio Aline Lotti/Treinos.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Academia_Studio_Aline_Lotti.Treinos.xaml
+build_metadata.AdditionalFiles.TargetPath = Treinos.xaml
+build_metadata.AdditionalFiles.RelativePath = Treinos.xaml

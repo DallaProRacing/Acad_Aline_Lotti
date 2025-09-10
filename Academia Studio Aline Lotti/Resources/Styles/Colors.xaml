@@ -9,6 +9,7 @@
     <Color x:Key="Black">#000000</Color>
     <Color x:Key="Orange">#FF6B35</Color>
     <Color x:Key="Red">#FF0206</Color>
+ 
 
     <!-- Tons de Cinza -->
     <Color x:Key="Gray100">#E1E1E1</Color>

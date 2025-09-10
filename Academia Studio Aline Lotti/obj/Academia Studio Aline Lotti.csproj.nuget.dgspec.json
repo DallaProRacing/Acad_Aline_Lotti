@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ruand\\source\\repos\\Academia Studio Aline Lotti\\Academia Studio Aline Lotti\\Academia Studio Aline Lotti.csproj": {}
+    "C:\\Users\\ruand\\source\\repos\\Acad_Aline_Lotti\\Academia Studio Aline Lotti\\Academia Studio Aline Lotti.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ruand\\source\\repos\\Academia Studio Aline Lotti\\Academia Studio Aline Lotti\\Academia Studio Aline Lotti.csproj": {
+    "C:\\Users\\ruand\\source\\repos\\Acad_Aline_Lotti\\Academia Studio Aline Lotti\\Academia Studio Aline Lotti.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ruand\\source\\repos\\Academia Studio Aline Lotti\\Academia Studio Aline Lotti\\Academia Studio Aline Lotti.csproj",
+        "projectUniqueName": "C:\\Users\\ruand\\source\\repos\\Acad_Aline_Lotti\\Academia Studio Aline Lotti\\Academia Studio Aline Lotti.csproj",
         "projectName": "Academia Studio Aline Lotti",
-        "projectPath": "C:\\Users\\ruand\\source\\repos\\Academia Studio Aline Lotti\\Academia Studio Aline Lotti\\Academia Studio Aline Lotti.csproj",
+        "projectPath": "C:\\Users\\ruand\\source\\repos\\Acad_Aline_Lotti\\Academia Studio Aline Lotti\\Academia Studio Aline Lotti.csproj",
         "packagesPath": "C:\\Users\\ruand\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ruand\\source\\repos\\Academia Studio Aline Lotti\\Academia Studio Aline Lotti\\obj\\",
+        "outputPath": "C:\\Users\\ruand\\source\\repos\\Acad_Aline_Lotti\\Academia Studio Aline Lotti\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [

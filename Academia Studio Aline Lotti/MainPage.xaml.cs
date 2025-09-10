@@ -11,13 +11,7 @@
 
         private async void Button_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new Cadastro());
-        }
-
-        private void OnToggleSenhaClicked(object sender, EventArgs e)
-        {            
-            SenhaEntry.IsPassword = !SenhaEntry.IsPassword;           
-            ToggleSenhaButton.Text = SenhaEntry.IsPassword ? "👁" : "🚫";
-        }
+            await Shell.Current.GoToAsync("Cadastro");
+        }       
     }
 }

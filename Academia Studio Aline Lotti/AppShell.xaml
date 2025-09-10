@@ -6,8 +6,12 @@
     xmlns:local="clr-namespace:Academia_Studio_Aline_Lotti"
     Title="Academia_Studio_Aline_Lotti">
 
-    <ShellContent      
+    <!-- Tela inicial -->
+    <ShellContent
+        Title="Início"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
 
 </Shell>
+    
+

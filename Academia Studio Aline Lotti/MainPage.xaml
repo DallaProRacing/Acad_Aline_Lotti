@@ -25,9 +25,11 @@
             />
 
             <!-- Campo Email -->
-            <VerticalStackLayout Spacing="5">
+            <VerticalStackLayout 
+                Spacing="5"
+                Margin="0,30,0,0">
                 <Label Text="Email"
-                FontSize="14"
+                FontSize="12"
                 TextColor="{StaticResource Orange}"
                 FontAttributes="Bold"/>
 
@@ -37,7 +39,7 @@
                 StrokeThickness="1">
                     <Entry Placeholder="seu@email.com"
                         Keyboard="Email"
-                        FontSize="16"
+                        FontSize="14"
                         TextColor="{AppThemeBinding Light={StaticResource Black}, Dark={StaticResource White}}"
                         PlaceholderColor="{StaticResource Gray400}"
                         BackgroundColor="Transparent"
@@ -45,38 +47,6 @@
                 </Border>
             </VerticalStackLayout>
 
-            <!-- Campo Senha -->
-            <VerticalStackLayout Spacing="5">
-                <Label Text="Senha"
-           FontSize="14"
-           TextColor="{StaticResource Orange}"
-           FontAttributes="Bold"/>
-
-                <Border BackgroundColor="Transparent"
-            StrokeShape="RoundRectangle 8"
-            Stroke="{StaticResource Gray200}"
-            StrokeThickness="1">
-                    <Grid>
-                        <Entry x:Name="SenhaEntry"
-                            Placeholder="••••••••"
-                            IsPassword="True"
-                            FontSize="16"
-                            TextColor="{AppThemeBinding Light={StaticResource Black}, Dark={StaticResource White}}"
-                            PlaceholderColor="{StaticResource Gray400}"
-                            BackgroundColor="Transparent"
-                            HeightRequest="50"/>
-                        <Button x:Name="ToggleSenhaButton"
-                                Text="👁"
-                                FontSize="10"
-                                BackgroundColor="Transparent"
-                                TextColor="{StaticResource White}"
-                                HorizontalOptions="End"
-                                VerticalOptions="Center"
-                                Padding="15,0"
-                                Clicked="OnToggleSenhaClicked"/>
-                    </Grid>
-                </Border>
-            </VerticalStackLayout>
 
             <!-- Botão Login -->
             <Button Text="Entrar"
@@ -85,19 +55,9 @@
                     TextColor="{StaticResource White}"
                     BackgroundColor="{StaticResource Orange}"
                     CornerRadius="8"
-                    HeightRequest="50"
-                    Margin="0,20,0,0"/>
-
-            <!-- Link Cadastro -->
-            <Button Text="Não tem conta? Cadastre-se"
-                    HorizontalOptions="Center"
-                    BackgroundColor="Transparent"
-                    TextColor="{AppThemeBinding Light={StaticResource Orange}, Dark={StaticResource Orange}}"
-                    FontSize="14"
                     Clicked="Button_Clicked"
-                    FontAttributes="Bold"
-                    Padding="0"
-                    />
+                    HeightRequest="50"
+                    Margin="0,20,0,0"/>           
             
         </VerticalStackLayout>
     </ScrollView>

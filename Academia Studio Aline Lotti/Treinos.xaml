@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Academia_Studio_Aline_Lotti.Treinos"
+              BackgroundColor="{AppThemeBinding Light={StaticResource White}, Dark={StaticResource Gray950}}"  
+             Title="Treinos">
+    
+    <ScrollView>
+    <VerticalStackLayout
+            Padding="30" Spacing="20">
+
+            <!-- Título -->
+            <Label Text="Gerenciar seu Treinos"
+                   FontSize="20"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center"
+                   TextColor="{AppThemeBinding Light={StaticResource Orange}, Dark={StaticResource White}}" />
+
+        
+            
+            <!-- Seção adicionar treino -->
+            <Border BackgroundColor= "{AppThemeBinding Light={StaticResource White}, Dark={StaticResource Gray900}}"
+                    Stroke="{AppThemeBinding Light={StaticResource Gray400}, Dark={StaticResource Gray400}}"
+                    StrokeThickness="2"
+                    StrokeShape="RoundRectangle 8"                   
+                    Padding="10"
+                    Shadow="0,4,10,#66000000">
+                <VerticalStackLayout Spacing="15">
+                    <Label Text="Adicionar novo treino"
+                           FontSize="18"
+                           FontAttributes="Bold"
+                           TextColor="{AppThemeBinding Light={StaticResource Orange}, Dark={StaticResource White}}" />
+                    
+                    <!-- Picker estilizado -->
+                   
+                    <Label Text="Dia da Semana"
+                        FontAttributes="Bold"
+                        TextColor="{AppThemeBinding Light={StaticResource Orange}, Dark={StaticResource White}}" />
+
+                    <Picker x:Name="DiaSemanaPicker"
+                    Title="Selecione o dia"
+                    BackgroundColor="{AppThemeBinding Light={StaticResource Gray100}, Dark={StaticResource Gray900}}"                            
+                    TextColor="{AppThemeBinding Light={StaticResource Gray400}, Dark={StaticResource White}}"                            
+                    HorizontalOptions="Start">
+                        <Picker.Items>
+                            <x:String>Segunda-feira</x:String>
+                            <x:String>Terça-feira</x:String>
+                            <x:String>Quarta-feira</x:String>
+                            <x:String>Quinta-feira</x:String>
+                            <x:String>Sexta-feira</x:String>
+                            <x:String>Sábado</x:String>
+                        </Picker.Items>
+
+                    </Picker>
+
+
+                    <!-- Exercícios -->
+                    <VerticalStackLayout x:Name="ExerciciosStack"
+                                         Spacing="15" />
+                    <!-- Botão adicionar exercício -->
+                    <Button Text="+ Adicionar Exercício"
+                            Clicked="OnAdicionarExercicioClicked"
+                            BackgroundColor="{StaticResource Orange}"
+                            TextColor="White"
+                            FontAttributes="Bold"
+                            CornerRadius="8"
+                            HeightRequest="40" />
+                    <!-- Botão salvar treino -->
+                    <Button Text="Salvar Treino"
+                            BackgroundColor="{AppThemeBinding Light={StaticResource Orange}, Dark={StaticResource Orange}}"
+                            TextColor="White"
+                            FontAttributes="Bold"
+                            CornerRadius="8"
+                            HeightRequest="40" />
+                </VerticalStackLayout>
+            </Border>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

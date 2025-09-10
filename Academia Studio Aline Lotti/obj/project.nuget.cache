@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "J1/vW9KkOTw=",
+  "dgSpecHash": "pzhW8xcPoV8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ruand\\source\\repos\\Academia Studio Aline Lotti\\Academia Studio Aline Lotti\\Academia Studio Aline Lotti.csproj",
+  "projectFilePath": "C:\\Users\\ruand\\source\\repos\\Acad_Aline_Lotti\\Academia Studio Aline Lotti\\Academia Studio Aline Lotti.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ruand\\.nuget\\packages\\googlegson\\2.13.0.1\\googlegson.2.13.0.1.nupkg.sha512",
     "C:\\Users\\ruand\\.nuget\\packages\\microsoft.extensions.configuration\\9.0.5\\microsoft.extensions.configuration.9.0.5.nupkg.sha512",
